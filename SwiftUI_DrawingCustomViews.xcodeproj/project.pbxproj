@@ -13,6 +13,7 @@
 		613DBEEA247696450069869A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613DBEE9247696450069869A /* Assets.xcassets */; };
 		613DBEED247696450069869A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613DBEEC247696450069869A /* Preview Assets.xcassets */; };
 		613DBEF0247696450069869A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613DBEEE247696450069869A /* LaunchScreen.storyboard */; };
+		613DBEF82476982A0069869A /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBEF72476982A0069869A /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		613DBEEC247696450069869A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		613DBEEF247696450069869A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613DBEF1247696450069869A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613DBEF72476982A0069869A /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				613DBEE3247696430069869A /* AppDelegate.swift */,
 				613DBEE5247696430069869A /* SceneDelegate.swift */,
 				613DBEE7247696430069869A /* ContentView.swift */,
+				613DBEF72476982A0069869A /* ShapeView.swift */,
 				613DBEE9247696450069869A /* Assets.xcassets */,
 				613DBEEE247696450069869A /* LaunchScreen.storyboard */,
 				613DBEF1247696450069869A /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				613DBEE4247696430069869A /* AppDelegate.swift in Sources */,
 				613DBEE6247696430069869A /* SceneDelegate.swift in Sources */,
+				613DBEF82476982A0069869A /* ShapeView.swift in Sources */,
 				613DBEE8247696430069869A /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
