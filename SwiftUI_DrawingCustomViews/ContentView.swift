@@ -41,16 +41,27 @@ struct ContentView: View {
                 .fill(Color.myGreen)
                 .animation(.linear)
                 
-                Button(action: {
-                    withAnimation {
-                        self.isShowing.toggle()
-                    }
-                }){
-                    Text("Show logo")
-                        .font(Font.system(.callout))
-                        .foregroundColor(.white)
+                VStack {
+
+                    logoShape()
+                        .fill(Color.white)
+                        .aspectRatio(1, contentMode: .fit)
+                        .padding(9)
+                        .opacity(self.isShowing ? 1 : 0)
+                        .animation(.linear)
                     
+                    Button(action: {
+                        withAnimation {
+                            self.isShowing.toggle()
+                        }
+                    }){
+                        Text("Show logo")
+                            .font(Font.system(.largeTitle))
+                            .foregroundColor(.white)
+                        
+                    }
                 }
+            .padding()
             }
         }
         .frame(width: 200, height: 200)
@@ -73,5 +84,5 @@ struct ContentView_Previews: PreviewProvider {
 
 extension Color {
     static let myPurple = Color(red: 128/255, green: 94/255, blue: 158/255)
-    static let myGreen = Color(red: 21/255, green: 132/255, blue: 67/255)
+    static let myGreen = Color(red: 4/255, green: 232/255, blue: 34/255)
 }
